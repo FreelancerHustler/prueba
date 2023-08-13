@@ -1,0 +1,54 @@
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ocean_blue"
+    tools:context=".ui.ReviewActivity">
+
+    <TextView
+        android:id="@+id/reviewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Leave a Review"
+        android:textColor="@color/sandy_beige"
+        android:textSize="24sp" />
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reviewTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:numStars="5"
+        android:stepSize="1" />
+
+    <EditText
+        android:id="@+id/reviewForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ratingBar"
+        android:layout_margin="20dp"
+        android:background="@color/sandy_beige"
+        android:hint="Write your review here..."
+        android:inputType="textMultiLine"
+        android:lines="5"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/submitReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reviewForm"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/sea_green"
+        android:text="Submit Review"
+        android:textColor="@color/sandy_beige" />
+
+</RelativeLayout>
+```

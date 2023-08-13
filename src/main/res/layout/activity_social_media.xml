@@ -1,0 +1,63 @@
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ocean_blue"
+    tools:context=".ui.SocialMediaActivity">
+
+    <TextView
+        android:id="@+id/socialMediaTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Share Your Experience"
+        android:textColor="@color/sandy_beige"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:id="@+id/socialMediaLinks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/socialMediaTitle"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/facebookIcon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/facebook_icon" />
+
+        <ImageView
+            android:id="@+id/twitterIcon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/twitter_icon" />
+
+        <ImageView
+            android:id="@+id/instagramIcon"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/instagram_icon" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/shareButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/socialMediaLinks"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/sea_green"
+        android:text="Share on Social Media"
+        android:textColor="@color/sandy_beige" />
+
+</RelativeLayout>
+```

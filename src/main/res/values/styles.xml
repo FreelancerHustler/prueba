@@ -1,0 +1,75 @@
+```xml
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <!-- Style for menu items -->
+    <style name="MenuItemStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <!-- Style for booking form -->
+    <style name="BookingFormStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <!-- Style for order form -->
+    <style name="OrderFormStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <!-- Style for review form -->
+    <style name="ReviewFormStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <!-- Style for notification list -->
+    <style name="NotificationListStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <!-- Style for social media links -->
+    <style name="SocialMediaLinksStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/roboto</item>
+    </style>
+
+    <!-- Style for location map -->
+    <style name="LocationMapStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+
+</resources>
+```

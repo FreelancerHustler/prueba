@@ -1,0 +1,46 @@
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ocean_blue">
+
+    <ImageView
+        android:id="@+id/waveImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/wave"
+        android:contentDescription="@string/wave_image" />
+
+    <TextView
+        android:id="@+id/notificationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/waveImage"
+        android:layout_centerHorizontal="true"
+        android:text="@string/notifications"
+        android:textSize="24sp"
+        android:textColor="@color/sandy_beige"
+        android:fontFamily="sans-serif-light" />
+
+    <ListView
+        android:id="@+id/notificationList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notificationTitle"
+        android:divider="@color/green_sea"
+        android:dividerHeight="0.5dp" />
+
+    <Button
+        android:id="@+id/optOutButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notificationList"
+        android:layout_centerHorizontal="true"
+        android:text="@string/opt_out"
+        android:textColor="@color/sandy_beige"
+        android:background="@drawable/ripple_effect" />
+
+</RelativeLayout>
+```

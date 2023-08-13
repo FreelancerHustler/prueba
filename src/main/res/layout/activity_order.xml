@@ -1,0 +1,52 @@
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ocean_blue"
+    tools:context=".ui.OrderActivity">
+
+    <TextView
+        android:id="@+id/textViewOrderTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Create Your Order"
+        android:textColor="@color/sandy_beige"
+        android:textSize="24sp" />
+
+    <ListView
+        android:id="@+id/menuList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewOrderTitle"
+        android:layout_marginTop="16dp"
+        android:divider="@color/seaweed_green"
+        android:dividerHeight="1dp" />
+
+    <Button
+        android:id="@+id/buttonPlaceOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menuList"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@color/seashell_white"
+        android:text="Place Order"
+        android:textColor="@color/ocean_blue" />
+
+    <EditText
+        android:id="@+id/orderForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/buttonPlaceOrder"
+        android:layout_marginTop="16dp"
+        android:hint="Any special requests?"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:textColor="@color/sandy_beige" />
+
+</RelativeLayout>
+```

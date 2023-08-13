@@ -1,0 +1,20 @@
+The `src/main/res/mipmap` directory is used to store launcher icons for the application. The icons should be in PNG format and follow Android's icon design guidelines. 
+
+Since this is a text-based AI, I can't generate images. However, I can provide the filenames that should be in this directory:
+
+1. `ic_launcher.png`: This is the default launcher icon for the application.
+2. `ic_launcher_round.png`: This is the round version of the launcher icon, used on devices that support round icons.
+
+You should replace these files with your own icons that match the ocean-inspired theme of the seafood restaurant app. The icons should be in different resolutions for different screen densities (mdpi, hdpi, xhdpi, xxhdpi, xxxhdpi). 
+
+For example, for `ic_launcher.png`, you should have:
+
+- `ic_launcher.png` (48x48 for mdpi)
+- `ic_launcher_hdpi.png` (72x72 for hdpi)
+- `ic_launcher_xhdpi.png` (96x96 for xhdpi)
+- `ic_launcher_xxhdpi.png` (144x144 for xxhdpi)
+- `ic_launcher_xxxhdpi.png` (192x192 for xxxhdpi)
+
+And similarly for `ic_launcher_round.png`. 
+
+Remember to reference these icons in your `AndroidManifest.xml` file.

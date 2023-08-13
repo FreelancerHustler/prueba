@@ -1,0 +1,59 @@
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ocean_blue"
+    tools:context=".ui.BookingActivity">
+
+    <TextView
+        android:id="@+id/bookingTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Book a Table"
+        android:textColor="@color/sandy_beige"
+        android:textSize="24sp" />
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bookingTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/datePicker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/guestsInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/timePicker"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="20dp"
+        android:hint="Number of Guests"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/bookingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/guestsInput"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/ocean_green"
+        android:text="Book Now"
+        android:textColor="@color/sandy_beige" />
+
+</RelativeLayout>
+```

@@ -1,0 +1,46 @@
+```xml
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.seafoodrestaurant.mobileapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".ui.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.MenuActivity" />
+        <activity android:name=".ui.BookingActivity" />
+        <activity android:name=".ui.OrderActivity" />
+        <activity android:name=".ui.PaymentActivity" />
+        <activity android:name=".ui.ReviewActivity" />
+        <activity android:name=".ui.NotificationActivity" />
+        <activity android:name=".ui.SocialMediaActivity" />
+        <activity android:name=".ui.LocationActivity" />
+
+        <service android:name=".services.BookingService" />
+        <service android:name=".services.OrderService" />
+        <service android:name=".services.PaymentService" />
+        <service android:name=".services.ReviewService" />
+        <service android:name=".services.NotificationService" />
+        <service android:name=".services.SocialMediaService" />
+        <service android:name=".services.LocationService" />
+
+    </application>
+
+</manifest>
+```

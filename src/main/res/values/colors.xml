@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1976D2</color>
+    <color name="colorPrimaryDark">#0D47A1</color>
+    <color name="colorAccent">#4CAF50</color>
+    <color name="oceanBlue">#0077be</color>
+    <color name="seaGreen">#2e8b57</color>
+    <color name="sandyBeige">#f4a460</color>
+    <color name="waveWhite">#ffffff</color>
+    <color name="rippleLightBlue">#b0e0e6</color>
+    <color name="shellPink">#ffc1cc</color>
+</resources>
